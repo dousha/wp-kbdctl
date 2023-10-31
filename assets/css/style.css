@@ -1,0 +1,16 @@
+.d-kbd-ctrl-controller-emblems {
+    display: inline-flex;
+    flex-flow: row;
+    vertical-align: top;
+}
+
+.d-kbd-ctrl-emblem {
+    height: 1.8rem !important;
+}
+
+.d-kbd-ctrl-key {
+    border: 1px solid gray;
+    font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', 'Monaco', 'Consolas', 'Courier New', monospace, monospace;
+    padding: 0.2rem;
+    box-shadow: 1px 1px gray;
+}
