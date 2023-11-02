@@ -5,7 +5,7 @@
  * Plugin Name: Keyboard and Controller Code
  * Plugin URI: https://github.com/dousha/wp-kbdctl
  * Description: Shortcode plugin to insert proper keyboard and controller buttons into your articles.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: dousha
  * Author URI: https://dsstudio.tech/
  * License: MIT
@@ -164,33 +164,33 @@ const d_kbd_ctrl_key_symbols = array(
     'right' => '→',
     'up' => '↑',
     'down' => '↓',
-    'enter' => '⮠ Enter',
-    'tab' => '⭾ Tab',
-    'shift' => '⇧ Shift',
+    'enter' => '⮠ &nbsp;Enter',
+    'tab' => '⭾&nbsp;Tab',
+    'shift' => '⇧&nbsp;Shift',
     'ctrl' => 'Ctrl',
-    'cmd' => '⌘ Command',
+    'cmd' => '⌘&nbsp;Command',
     'alt' => 'Alt',
     'option' => '⌥',
-    'ctrls' => 'Ctrl / ⌘',
-    'alts' => 'Alt / ⌥',
-    'helm' => '^ Ctrl',
-    'win' => '❖ Win',
-    'meta' => '❖ Win',
-    'backspace' => '⌫ Backspace',
-    'pgdn' => '⎘ Page Down',
-    'pgup' => '⎗ Page Up',
-    'home' => '⌂ Home',
-    'end' => '⇲ End',
-    'menu' => '▤ Menu',
-    'compose' => '⎄ Compose',
-    'esc' => '⎋ Escape',
-    'del' => '⌦ Delete',
-    'ins' => '⎀ Insert',
-    'sysrq' => '⎙ PrtSc/SysRq',
-    'pause' => '⎉ Pause/Break',
-    'caps' => '🄰 Caps Lock',
-    'num' => '⇭ Num Lock',
-    'scroll' => '⇳ Scroll Lock'
+    'ctrls' => 'Ctrl&nbsp;/&nbsp;⌘',
+    'alts' => 'Alt&nbsp;/&nbsp;⌥',
+    'helm' => '^&nbsp;Ctrl',
+    'win' => '❖&nbsp;Win',
+    'meta' => '❖&nbsp;Win',
+    'backspace' => '⌫&nbsp;Backspace',
+    'pgdn' => '⎘&nbsp;Page&nbsp;Down',
+    'pgup' => '⎗&nbsp;Page&nbsp;Up',
+    'home' => '⌂&nbsp;Home',
+    'end' => '⇲&nbsp;End',
+    'menu' => '▤&nbsp;Menu',
+    'compose' => '⎄&nbsp;Compose',
+    'esc' => '⎋&nbsp;Escape',
+    'del' => '⌦&nbsp;Delete',
+    'ins' => '⎀&nbsp;Insert',
+    'sysrq' => '⎙&nbsp;PrtSc/SysRq',
+    'pause' => '⎉&nbsp;Pause/Break',
+    'caps' => '🄰&nbsp;Caps&nbsp;Lock',
+    'num' => '⇭&nbsp;Num&nbsp;Lock',
+    'scroll' => '⇳&nbsp;Scroll&nbsp;Lock'
 );
 
 function d_kbd_ctrl_assemble_url($asset_name)
