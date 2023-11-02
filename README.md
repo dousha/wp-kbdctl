@@ -143,6 +143,33 @@ Following names are recognized for PlayStation controllers:
 
 #### Equivalence Buttons
 
+Some times you may want to talk about the buttons that usually 
+has the same function across all platforms, like DPad right.
+
+When using equivalence button names, `v` parameter is not used.
+
+You can use equivalence names listed below:
+
+* `EquivalenceUp` => DPad up
+* `EquivalenceDown` => DPad down
+* `EquivalenceLeft` => DPad left
+* `EquivalenceRight` => DPad right
+* `EquivalenceSelect` => Select key. Maps to XBox View button, PS Touchpad press, and Switch Minus button.
+* `EquivalenceStart` => Start key. Maps to XBox Menu button, PS Option button, and Switch Plus button.
+* `EquivalenceActionUp` => The upper action button. Maps to XBox Y button, PS Triangle button, and Switch "Up" button.
+* `EquivalenceActionDown` => The lower action button. Maps to XBox B button, PS Cross button, and Switch "Down" button.
+* `EquivalenceActionLeft` => The left-side action button. Maps to XBox X button, PS Square button, and Switch "Left" button.
+* `EquivalenceActionRight` => The right-side action button. Maps to XBox A button, PS Circle button, and Switch "Right" button.
+* `EquivalenceLeftBumper` => The left bumper. Maps to XBox LB, PS L1, and Switch L.
+* `EquivalenceLeftTrigger` => The left trigger. Maps to XBox LT, PS L2, and Switch ZL.
+* `EquivalenceRightBumper` => The right bumper. Maps to XBox RB, PS R1, and Switch R.
+* `EquivalenceRightTrigger` => The right trigger. Maps to XBox RT, PS R2, and Switch ZR.
+* `EquivalenceLeftStick` => The left stick movement.
+* `EquivalenceRightStick` => The right stick movement.
+* `EquivalenceLeftStickPress` => The left stick press.
+* `EquivalenceRightStickPress` => The right stick press.
+
+
 ## Credits
 
 Huge thanks to Nicolae Berbece for releasing [Xelu's Controllers & Keyboard Prompts](https://thoseawesomeguys.com/prompts/) under CC0 license.
